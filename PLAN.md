@@ -42,7 +42,7 @@ cc_tb_dev/
 ### Шаг 2 — `bot/config.py`
 Загрузка конфигурации из переменных окружения:
 - `TELEGRAM_BOT_TOKEN` — токен бота (обязательно)
-- `OLLAMA_BASE_URL` — адрес Ollama (по умолчанию `http://ollama:11434`)
+- `OLLAMA_BASE_URL` — адрес Ollama (по умолчанию `http://localhost:11434`)
 - `DEFAULT_MODEL` — модель по умолчанию (по умолчанию `qwen3:0.6b`)
 - `AVAILABLE_MODELS` — список доступных моделей через запятую
 

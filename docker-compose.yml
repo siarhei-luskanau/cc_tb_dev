@@ -1,24 +1,7 @@
 services:
-  ollama:
-    image: ollama/ollama
-    volumes:
-      - ollama_models:/root/.ollama
-    ports:
-      - "11434:11434"
-    healthcheck:
-      test: ["CMD", "ollama", "list"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
-
   bot:
     build: .
-    depends_on:
-      ollama:
-        condition: service_healthy
     env_file:
       - .env
-
-volumes:
-  ollama_models:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

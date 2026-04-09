@@ -18,7 +18,7 @@ Telegram-бот с локальной LLM
 
 Рекомендуемые модели:
     - qwen3:0.6b
-    - qwen3.5:0.5b
+    - qwen3.5:0.8b
 
 2. Язык программирования
 На выбор: Python или JavaScript/TypeScript

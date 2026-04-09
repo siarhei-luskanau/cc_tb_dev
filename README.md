@@ -37,7 +37,7 @@
 ## Доступные модели
 
 - `qwen3:0.6b` (по умолчанию)
-- `qwen3.5:0.5b`
+- `qwen3.5:0.8b`
 - `gpt-oss:20b`
 
 ## Переменные окружения
@@ -47,4 +47,4 @@
 | `TELEGRAM_BOT_TOKEN` | Токен бота (обязательно) | — |
 | `OLLAMA_BASE_URL` | Адрес Ollama | `http://ollama:11434` |
 | `DEFAULT_MODEL` | Модель по умолчанию | `qwen3:0.6b` |
-| `AVAILABLE_MODELS` | Список моделей через запятую | `qwen3:0.6b,qwen3.5:0.5b,gpt-oss:20b` |
+| `AVAILABLE_MODELS` | Список моделей через запятую | `qwen3:0.6b,qwen3.5:0.8b,gpt-oss:20b` |
